@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="319.5" y="111.5">bea.prog1.Program</node>
+    <node x="673.0" y="1014.5">bea.prog1.Owner</node>
+    <node x="0.0" y="981.5">bea.prog1.Auction</node>
+    <node x="350.5" y="1408.0">bea.prog1.Bid</node>
+    <node x="358.0" y="-27.0">bea.prog1.Main</node>
+    <node x="306.5" y="959.5">bea.prog1.Dog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bea.prog1.Program" target="bea.prog1.Auction">
+      <point x="-120.5" y="-0.0" />
+      <point x="120.0" y="480.0" />
+      <point x="0.0" y="-138.5" />
+    </edge>
+    <edge source="bea.prog1.Program" target="bea.prog1.Owner">
+      <point x="120.5" y="-0.0" />
+      <point x="800.0" y="480.0" />
+      <point x="0.0" y="-105.5" />
+    </edge>
+    <edge source="bea.prog1.Main" target="bea.prog1.Program">
+      <point x="0.0" y="27.0" />
+      <point x="0.0" y="-368.5" />
+    </edge>
+    <edge source="bea.prog1.Auction" target="bea.prog1.Dog">
+      <point x="120.0" y="-0.0" />
+      <point x="-133.5" y="-0.0" />
+    </edge>
+    <edge source="bea.prog1.Auction" target="bea.prog1.Bid">
+      <point x="0.0" y="138.5" />
+      <point x="120.0" y="1480.0" />
+      <point x="-89.5" y="-0.0" />
+    </edge>
+    <edge source="bea.prog1.Dog" target="bea.prog1.Owner">
+      <point x="40.0" y="160.5" />
+      <point x="480.0" y="1360.0" />
+      <point x="760.0" y="1360.0" />
+      <point x="-40.0" y="105.5" />
+    </edge>
+    <edge source="bea.prog1.Bid" target="bea.prog1.Owner">
+      <point x="89.5" y="-0.0" />
+      <point x="800.0" y="1480.0" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="bea.prog1.Owner" target="bea.prog1.Dog">
+      <point x="-127.0" y="-0.0" />
+      <point x="133.5" y="-0.0" />
+    </edge>
+    <edge source="bea.prog1.Program" target="bea.prog1.Dog">
+      <point x="0.0" y="368.5" />
+      <point x="0.0" y="-160.5" />
+    </edge>
+    <edge source="bea.prog1.Bid" target="bea.prog1.Dog">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="0.4561934746554592" x="513.8723709272027" y="551.9746632956881" />
+  <SelectedNodes>
+    <node>bea.prog1.Program</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
